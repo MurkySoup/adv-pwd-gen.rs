@@ -4,10 +4,11 @@ version = 4
 
 [[package]]
 name = "adv-pwd-gen"
-version = "0.3.0"
+version = "0.6.0"
 dependencies = [
  "clap",
  "rand",
+ "rand_core",
  "thiserror",
 ]
 
