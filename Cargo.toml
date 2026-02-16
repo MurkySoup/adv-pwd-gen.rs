@@ -1,6 +1,6 @@
 [package]
 name = "adv-pwd-gen"
-version = "0.3.0"
+version = "0.6.0"
 edition = "2021"
 license = "Apache 2.0"
 authors = ["Rick Pelletier <galiagante@gmail.com>"]
@@ -8,5 +8,10 @@ description = "Constraint-based password generator (no adjacent class, no repeat
 
 [dependencies]
 clap = { version = "*", features = ["derive"] }
-rand = "0.8"
+rand = "*"
+rand_core = "*"
 thiserror = "*"
+
+[features]
+default = ["simd"]
+simd = []
