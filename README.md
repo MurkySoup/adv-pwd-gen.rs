@@ -8,10 +8,6 @@ Constraint-based password generator implemented in Rust.
 
 This is a Rust-based implementation of my personal password generation tool. The passwords created this way are not merely random, but are also "anti-pattern" and designed to be as difficult as possible to "break" using existing password recovery tools.
 
-Here is a **concise, production-ready `README.md`** aligned with the current architecture, behavior, and constraints of your generator.
-
-You can drop this directly into your repository root.
-
 ---
 
 ## Features
@@ -202,8 +198,7 @@ adv-pwd-gen --length 32 --max-retries 1024
 
 ### Why bounded retries exist
 
-Certain combinations of constraints can produce permutation dead-ends.
-The generator uses statistical detection and bounded retry attempts to ensure termination.
+Certain combinations of constraints can produce permutation dead-ends. The generator uses statistical detection and bounded retry attempts to ensure termination.
 
 ### Why no adjacent same-class characters
 
