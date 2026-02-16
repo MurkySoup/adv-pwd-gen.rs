@@ -157,6 +157,12 @@ cargo test
 
 The project is designed to compile cleanly under the latest stable Rust toolchain.
 
+---
+
+# License
+
+This tool is released under the Apache 2.0 license. See the LICENSE file in this repo for details.
+
 ## Built With
 
 * [Rust](https://www.rust-lang.org/)

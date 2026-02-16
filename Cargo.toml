@@ -2,7 +2,7 @@
 name = "adv-pwd-gen"
 version = "0.3.0"
 edition = "2021"
-license = "MIT"
+license = "Apache 2.0"
 authors = ["Rick Pelletier <galiagante@gmail.com>"]
 description = "Constraint-based password generator (no adjacent class, no repeats, CSPRNG)"
 
