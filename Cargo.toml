@@ -7,6 +7,6 @@ authors = ["Rick Pelletier <galiagante@gmail.com>"]
 description = "Constraint-based password generator (no adjacent class, no repeats, CSPRNG)"
 
 [dependencies]
-clap = { version = "4", features = ["derive"] }
+clap = { version = "*", features = ["derive"] }
 rand = "0.8"
-thiserror = "1"
+thiserror = "*"
